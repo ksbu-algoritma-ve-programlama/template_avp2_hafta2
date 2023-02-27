@@ -18,6 +18,7 @@ jobs:
     - name: Unit Test Compile
       run: |
         gcc -o unitTest unitTest.c
+        ./unitTest
 
     - name: Load Artifact to Actions
       uses: actions/upload-artifact@v2
